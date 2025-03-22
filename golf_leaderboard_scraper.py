@@ -17,4 +17,4 @@ else:
 
 # Step 4: Parse the HTML content using BeautifulSoup
 soup = BeautifulSoup(response.text, 'html.parser')
-print(soup.prettify()[:10000])  # First 1000 characters for a clean view
+print(soup.prettify()[:1000])  # First 1000 characters for a clean view
